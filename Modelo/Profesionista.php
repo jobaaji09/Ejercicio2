@@ -20,9 +20,9 @@ class  Profesionista{
                                 string $contrasenia,
                                 string $nacionalidad,
                                 string $carrera,
-                                ExperienciaLaboral $experienciaLaboral,
-                                FormacionAcademica $formacionAcademica,
-                                Skills $skills
+                                array $experienciaLaboral,
+                                array $formacionAcademica,
+                                array $skills
                                 ){
         $this->nombre = $nombre;
         $this->correo = $correo;
@@ -71,7 +71,7 @@ class  Profesionista{
     public function setContrasenia(string $contrasenia){
         $this->contrasenia = $contrasenia;
     }
-
+    /*
     public function setExperienciaLaboral(string $ExperienciaLabora){
         $this->ExperienciaLaboral = $ExperienciaLaboral;
     }
@@ -79,7 +79,7 @@ class  Profesionista{
     public function setFormacionAcademica(string $formacionAcademica){
         $this->formacionAcademica = $formacionAcademica;
     }
-    
+    */
     
     
     
