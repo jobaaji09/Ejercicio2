@@ -1,7 +1,7 @@
 <?php
 require_once('ExperienciaLaboral.php');
 require_once('FormacionAcademica.php');
-require_once('Skills.php');
+require_once('Skill.php');
 
 class  Profesionista{
     private $nombre;
