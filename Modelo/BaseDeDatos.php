@@ -115,9 +115,9 @@ class BaseDeDatos implements InterfaceBaseDeDatos{
 /*
 $o = new stdClass();
 
-$o->nombre = 'dmotnes';
+$o->nombre = 'jonh';
 $o->contrasenia = 'bla';
-$o->correo = 'dmontes@correocaleinte.com';
+$o->correo = 'jonh@correocaleinte.com';
 
 $bd = new BaseDeDatos("Profesionista");
 if($bd->insert($o)){
